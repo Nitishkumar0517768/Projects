@@ -1,0 +1,729 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    /* border: 1px solid black; */
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    position: relative;
+}
+nav{
+    border: 2px solid black;
+    background-color: white;
+    height: 6vh;
+    width: 100vw;
+     position: fixed;
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+.nav-bar1{
+    /* border: 1px solid red; */
+    width: 66vw;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar2{
+    /* border: 1px solid red; */
+    width: 5vw;
+    height: 6vh;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+.nav-bar2 img{
+    height: 1.8vw;
+}
+.nav-bar2 button{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.logo1{
+    /* border: 1px solid green; */
+    height: 6vh;
+    width: 11vw;
+    margin-left: 2vw;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.logo1 h1{
+    letter-spacing: 1rem;
+    font-family: GT-America;
+}
+.logo2{
+    /* border: 1px solid green; */
+    height: 6vh;
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+}
+.gifts{
+    /* border: 1px solid red; */
+    width: 2.5vw;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    font-weight: 550;
+    color: rgb(89, 89, 89);
+}
+#gift-2{
+    width: 3vw;
+}
+#gift-5{
+    width: 5.5vw;
+}
+#gift-6{
+    width: 6vw;
+}
+#gift-8{
+    width: 10vw;
+}
+#gift-9{
+    width: 6vw;
+}
+#gift-1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.gifts:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.section{
+    /* border: 1px solid black; */
+    width: 95vw;
+    height: 40vh;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+#section1{
+    /* border: 1px solid black; */
+    height: 15vw;
+    max-height: 20vw;
+    /* min-height: 18vw; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around; */
+   
+    
+}
+.bag1{
+    border: 1px solid black;
+    height: 15vw;
+    /* max-height: 18vw; */
+    /* min-height: 18vw; */
+    width: 10vw;
+     margin-left: 2vw;
+     display: flex;
+     justify-content: center;
+}
+.bag1 img{
+    /* border: 1px solid black; */
+    width: 7vw;
+    height: 8vw;
+    margin-top: 1vh;
+    
+}
+.bag1 a p{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 550;
+    text-align: center;
+}
+.bag1 img:hover{
+    transform: scale(1.05);
+    transition: 0.5s ease;
+}
+
+#section2{
+    height: 112vh;
+}
+#section2 video{
+    width: 95vw;
+}
+#section3{
+    text-align: center;
+    height: 40vh;
+    align-content: center;
+}
+#section3 h2{
+    font-size: 3rem;
+    /* margin-top: 2vw; */
+}
+#section3 h4{
+    font-size: 1.3rem;
+    margin-top: 1vw;
+}
+#section3 p{
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    word-spacing: 0.2rem;
+    margin-top: 1vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    color: rgb(86, 86, 86);
+}
+
+#section4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 60vh;
+}
+.bag2{
+    /* border: 1px solid red; */
+    width: 22vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bag2 img{
+    width: 20vw;
+}
+#bag21 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA274/NZVF0002/1BA274_NZV_F0002_V_EOO_MDL.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+    
+}
+#bag22 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA863/NZVF0002/1BA863_NZV_F0002_V_EOO_MDL.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+#bag23 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA896/NZVF0002/1BA896_NZV_F0002_V_EOO_MDL.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+#bag24 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA916/NZVF0002/1BA916_NZV_F0002_V_EOO_MDL.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+.bag2 p{
+    font-size: 1.3rem;
+    font-weight: 550;
+    text-align: center;
+}
+
+#bag31 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA274/2CYSF0002/1BA274_2CYS_F0002_V_YO0_MDL.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+    
+}
+#bag32 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA863/2CYSF0002/1BA863_2CYS_F0002_V_YO0_MDL.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+#bag33 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA896/2CYSF0002/1BA896_2CYS_F0002_V_YO0_MDL.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+#bag34 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA457/2CYSF0002/1BA457_2CYS_F0002_V_YO0_SLR.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+
+
+
+#bag41 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA274/2CYSF0009/1BA274_2CYS_F0009_V_YO0_MDL.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+    
+}
+#bag42 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA863/2CYSF0009/1BA863_2CYS_F0009_V_YO0_MDL.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+#bag43 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA896/2CYSF0009/1BA896_2CYS_F0009_V_YO0_MDL.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+#bag44 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA916/NZVF0K74/1BA916_NZV_F0K74_V_EOO_MDL.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+
+
+#bag51 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA863/NZVF0007/1BA863_NZV_F0007_V_EOO_MDL.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+    
+}
+#bag52 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA896/NZVF0007/1BA896_NZV_F0007_V_EOO_MDL.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+#bag53 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA916/NZVF0007/1BA916_NZV_F0007_V_EOO_MDL.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+#bag54 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA916/NZVF0480/1BA916_NZV_F0480_V_EOO_MDL.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+
+
+
+#bag61 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA863/NZVF03BH/1BA863_NZV_F03BH_V_EOO_MDL.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+    
+}
+#bag62 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA896/NZVF03BH/1BA896_NZV_F03BH_V_EOO_MDL.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+#bag63 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA916/2AO6F0135/1BA916_2AO6_F0135_V_EOO_MDL.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+#bag64 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA916/2AO6F0846/1BA916_2AO6_F0846_V_EOO_MDL.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+
+
+#bag71 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA457/2CYSF03BH/1BA457_2CYS_F03BH_V_YO0_MDL.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+    
+}
+#bag72 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA457/2C4SF0324/1BA457_2C4S_F0324_V_YOF_MDL.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+#bag73 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA457/2HIMF0G3N/1BA457_2HIM_F0G3N_V_YO0_MDL.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+#bag74 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA457/2CYSF0009/1BA457_2CYS_F0009_V_YO0_MDL.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+
+
+#bag81 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA457/2HJTF0002/1BA457_2HJT_F0002_V_YBF_MDL.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+    
+}
+#bag82 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA457/2HJTF0009/1BA457_2HJT_F0009_V_YBF_MDL.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+#bag83 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA457/2CYSF0032/1BA457_2CYS_F0032_V_YO0_MDL.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+#bag84 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA457/2FOMF0151/1BA457_2FOM_F0151_V_EAM_MDL.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+
+
+#bag91 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA916/2FOMF0028/1BA916_2FOM_F0028_V_BOC_MDL.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+    
+}
+#bag92 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA916/2FOMF0010/1BA916_2FOM_F0010_V_BOF_MDL.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+#bag93 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA916/2FOMF0089/1BA916_2FOM_F0089_V_BOR_MDL.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+#bag94 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/1/1BA/1BA916/2HMZF0046/1BA916_2HMZ_F0046_V_BOT_MDL.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+ 
+#section16{
+    height: 110vh;
+    background-image: url(https://www.prada.com/content/dam/pradaspa/ecommerce/2025/09/Galleria/Collection/banner_4/Mosaic_landscape_DT.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+#section16 h2{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+#section16 p{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 550;
+    text-align: center;
+}
+#section16:hover{
+    cursor: pointer;
+}
+
+
+#section17{
+    /* padding-top: 2vw; */
+    height: 15vh;
+    align-content: center;
+}
+#section17 p{
+    font-size: 1.4rem;
+    line-height: 2rem;
+    word-spacing: 0.4rem;
+}
+
+#section18{
+    height: 7vh;
+    font-size: 1.3rem;
+    text-align: center;
+    align-content: center;
+}
+
+#section19{
+     height: 29vh;
+    display: flex;
+}
+
+.foot{
+    /* border: 1px solid black; */
+    width: 25vw;
+    height: 100%;
+    text-align: center;
+    margin-top: 4vh;
+}
+#foot1{
+    width: 22vw;
+    display: flex;
+    justify-content: space-around;
+}
+#foot1 img{
+    width: 1.2vw;
+    height: 1.2vw;
+    
+}
+
+.foot a{
+    text-decoration: none;
+    color: black;
+}
+.foot h3{
+    font-size: 1.5rem;
+}
+.foot p{
+    font-size: 1.2rem;
+}
+
+@media (max-width: 1200px){
+ .logo2{
+        display: none;
+    }
+    nav{
+        justify-content: space-between;
+    }
+    .nav-bar2 img{
+        height: 2.5vh;
+        margin-right: 2vh;
+    }
+    .logo1 h1{
+        font-size: 1.8rem;
+        letter-spacing: 0.2rem;
+    }
+}
+
+
+@media (max-width: 1190px) and (min-width:770px){
+    #section1{
+        border: 0px solid black;
+        height: 11vh;
+    }
+    .bag1{
+        width: 116px;
+        justify-content: center;
+        height: 10vh;
+    }
+    .bag1 img{
+        width: 100px;
+    }
+    .bag1 a p{
+        font-size: 1rem;
+    }
+    #section2{
+        height: 50vw;
+        margin-top: 1vh;
+    }
+    #section3{
+        height: 38vw;
+    }
+    #section3 h2{
+        font-size: 2rem;
+    }
+    #section3 p{
+        font-size: 1rem;
+    }
+    #section4{
+        border: 0px;
+        height: 22vh;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .bag2 img{
+        height: 15vh;
+    }
+    .bag2 p{
+        font-size: 1.2rem;
+    }
+    #section16{
+        height: 35vh;
+    }
+    #section16 h2{
+        font-size: 1.5rem;
+    }
+    #section16 p{
+        font-size: 1.2rem;
+    }
+    #section17, #section18{
+        margin-top: 0vh;
+        align-items: center;
+    }
+    #section17 p{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    #foot1{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #foot1 img{
+        width: 2.5vw;
+        height: 2.5vw;
+    }
+
+}
+
+/* For tablets */
+@media (max-width: 769px) {
+  body {
+    font-size: 16px;
+    /* padding: 10px; */
+  }
+  nav{
+    height: 5vh;
+    padding-right: 1vh;
+    align-content: center;
+  }
+
+   #section1{
+        border: 0px solid black;
+        height: 15vh;
+        justify-content: space-evenly;
+    }
+    .bag1{
+        width: 20vw;
+        justify-content: center;
+        height: 25vw;
+    }
+    .bag1 img{
+        width: 15vw;
+        height: 12vw;
+    }
+    .bag1 a p{
+        font-size: 1rem;
+    }
+    #bags1, #bags2{
+        display: none;
+    }
+    #section2{
+        height: 55vw;
+    }
+    #section3{
+        height: 30vh;
+        margin-top: 4vw;
+    }
+    #section3 h2{
+        font-size: 1.5rem;
+        line-height: 1.2rem;
+    }
+    #section3 h4{
+        font-size: 1.3rem;
+        line-height: 1.2rem;
+    }
+    #section3 p{
+        font-size: 1rem;
+        line-height: 1.2rem;
+
+    }
+    #section4{
+        height: 28vh;
+    }
+    #section4 img{
+        width: 27vw;
+    }
+    #section4 p{
+        font-size: 1rem;
+    }
+    #bag23{
+        display: none;
+    }
+    #bag33{
+        display: none;
+    }
+    #bag43{
+        display: none;
+    }
+    #bag53{
+        display: none;
+    }
+    #bag63{
+        display: none;
+    }
+    #bag73{
+        display: none;
+    }
+    #bag83{
+        display: none;
+    }
+    #bag93{
+        display: none;
+    }
+
+    #section16{
+        height: 60vw;
+    }
+    #section16 h2{
+        font-size: 1.5rem;
+    }
+    #section16 p{
+        font-size: 1.2rem;
+    }
+    #section17{
+        height: 35vw;
+        /* padding: 2vw; */
+        margin-top: 1vw;
+    }
+    #section17 p{
+        font-size: 1.2rem;
+        text-align: center;
+        margin-top: 0;
+    }
+    #section18{
+        margin-top: 1vw;
+    }
+
+  #section19{
+    height: 60vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  #foot1 img{
+    height: 4vw;
+    width: 4vw;
+  }
+  #foot1{
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #foot3{
+    margin-top: 4vh;
+  }
+}
+
+/* For mobile phones */
+@media (max-width: 576px) {
+  body {
+    font-size: 14px;
+  }
+  .logo1{
+    align-items: center;
+  }
+  .logo1 h1{
+    font-size: 1.5rem;
+  }
+  
+  #section1{
+    height: 20vh;
+    margin-top: 1vh;
+  }
+  #section1 p{
+    font-size: 0.8rem;
+  }
+  #bs{
+    display: none;
+  }
+  .bag1{
+    width: 40vw;
+    justify-content: center;
+  }
+
+  #section3{
+    height: 70vw;
+  }
+  #section3 h2{
+    font-size: 1.2rem;
+  }
+   #section3 h4{
+    font-size: 1rem;
+    margin-top: -1vh;
+  }
+   #section3 p{
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+  #section4 p{
+    font-size: 0.8em;
+  }
+    
+  #section16 h2{
+        font-size: 1.2rem;
+    }
+    #section16 p{
+        font-size: 1rem;
+    }
+    #section17{
+        height: 35vw;
+        /* padding: 2vw; */
+        margin-top: 1vw;
+    }
+    #section17 p{
+        font-size: 0.8em;
+        line-height: 1.2rem;
+        text-align: center;
+        margin-top: 0;
+    }
+    #section18{
+        margin-top: 1vw;
+    }
+    #section18 p{
+        font-size: 0.9em;
+    }
+
+#section19{
+    height: 70vh;
+}
+  .foot h3{
+    font-size: 1rem;
+    text-align: center;
+  }
+  .foot p{
+    font-size: 0.8rem;
+  }
+  .foot img{
+    width: 3vw;
+    height: 3vw;
+  }
+}

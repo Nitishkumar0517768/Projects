@@ -1,0 +1,536 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    /* border: 1px solid black; */
+    height: auto;
+    width: 100vw;
+    overflow-x:hidden;
+}
+nav{
+    border: 2px solid black;
+    background-color: white;
+    height: 6vh;
+    width: 100vw;
+     position: fixed;
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+.nav-bar1{
+    /* border: 1px solid red; */
+    width: 66vw;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar2{
+    /* border: 1px solid red; */
+    width: 5vw;
+    height: 6vh;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+.nav-bar2 img{
+    height: 1.8vw;
+}
+.nav-bar2 button{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.logo1{
+    /* border: 1px solid green; */
+    height: 6vh;
+    width: 11vw;
+    margin-left: 2vw;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.logo1 h1{
+    letter-spacing: 1rem;
+    font-family: GT-America;
+}
+.logo2{
+    /* border: 1px solid green; */
+    height: 6vh;
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+}
+.gifts{
+    /* border: 1px solid red; */
+    width: 2.5vw;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    font-weight: 550;
+    color: rgb(89, 89, 89);
+}
+#gift-2{
+    width: 3vw;
+}
+#gift-5{
+    width: 5.5vw;
+}
+#gift-6{
+    width: 6vw;
+}
+#gift-8{
+    width: 10vw;
+}
+#gift-9{
+    width: 6vw;
+}
+#gift-1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.gifts:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.shoesnav{
+    border: 1px solid black;
+    height: 6vh;
+    width: 100vw;
+    background-color: white;
+    position: fixed;
+    margin-top:-1vh ;
+    display: flex;
+}
+.shoes{
+    /* border: 1px solid black; */
+    height: 6vh;
+    width: 4vw;
+    margin-left: 2vw;
+    display: flex;
+    align-items: center;
+}
+.shoes h2{
+    font-size: 1.8rem;
+    font-weight: 550;
+}
+.shoes p{
+    font-size: 1.1rem;
+}
+#shoes7, #shoes8, #shoes13{
+    width: 3vw;
+}
+#shoes2, #shoes3, #shoes10{
+    width: 3.5vw;
+}
+#shoes4, #shoes5{
+    width: 3vw;
+}
+#shoes9{
+    width: 4.5vw;
+}
+#shoes11{
+    width: 6vw;
+}
+#shoes12, #shoes1{
+    width: 5vw;
+}
+.shoes:hover{
+    font-weight: 550;
+    cursor: pointer;
+}
+#shoes4{
+    font-weight: 550;
+    text-decoration: underline;
+}
+
+.products{
+    /* border: 1px solid black; */
+    height: 6vh;
+    width: 100vw;
+    background-color: white;
+    position: fixed;
+    margin-top:-0.2vh ;
+    display:flex;
+    justify-content: space-between;
+}
+.product1{
+    /* border: 1px solid red; */
+    width: 12vw;
+    height: 6vh;
+    align-content: center;
+    font-weight: 550;
+    font-size: 1.1rem;
+}
+#product11{
+    margin-left: 2vw;
+}
+#product12{
+    /* border: 1px solid black; */
+    /* margin-right: 1vw; */
+    width: 30vh;
+}
+.product1 p:hover{
+    cursor: pointer;
+}
+
+.section{
+    /* border: 1px solid black; */
+    width: 95vw;
+    height: 40vh;
+    margin: auto;
+    margin-top: 5vh;
+}
+#section1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 60vh;
+}
+.shoe{
+    /* border: 1px solid red; */
+    width: 22vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shoe img{
+    width: 20vw;
+}
+.shoe p{
+    font-size: 1.3rem;
+    font-weight: 550;
+    text-align: center;
+}
+
+#shoe11 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/2/2DB/2DB229/055F0038/2DB229_055_F0038_F_X000_SLR.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+#shoe12 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/2/2DB/2DB229/055F0002/2DB229_055_F0002_F_X000_SLR.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+#shoe13 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/2/2DE/2DE127/055F0038/2DE127_055_F0038_F_G000_SLR.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+#shoe14 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/2/2DE/2DE127/055F0002/2DE127_055_F0002_F_G000_SLR.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+
+#shoe21 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/2/2DB/2DB221/103F0003/2DB221_103_F0003_F_X001_SLR.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+#shoe22 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/2/2DB/2DB201/103F0003/2DB201_103_F0003_F_X001_SLR.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+#shoe23 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/2/2DB/2DB229/103F0003/2DB229_103_F0003_F_X000_SLR.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+#shoe24 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/2/2DB/2DB201/055F0038/2DB201_055_F0038_F_C000_SLR.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+
+#shoe31 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/2/2DE/2DE151/070F0002/2DE151_070_F0002_F_G001_SLR.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+#shoe32 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/2/2DE/2DE151/070F0192/2DE151_070_F0192_F_G001_SLR.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+#shoe33 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/2/2EE/2EE416/070F0002/2EE416_070_F0002_F_G001_SLR.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+#shoe34 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/2/2EE/2EE416/070F0192/2EE416_070_F0192_F_G001_SLR.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+
+#shoe41 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/2/2DB/2DB233/055F0038/2DB233_055_F0038_F_X000_SLR.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+#shoe42 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/2/2DB/2DB233/055F0002/2DB233_055_F0002_F_X000_SLR.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+#shoe43 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/2/2DB/2DB236/055F0002/2DB236_055_F0002_F_X024_SLR.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+#shoe44 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/2/2DB/2DB201/055F0002/2DB201_055_F0002_F_C000_SLR.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+
+#shoe51 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/4/4D3/4D3612/070F0002/4D3612_070_F0002_F_D001_SLR.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+#shoe52 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/2/2DC/2DC230/055F0002/2DC230_055_F0002_F_G000_SLR.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+#shoe53 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/2/2DB/2DB223/055F0002/2DB223_055_F0002_F_X000_SLR.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+#shoe54 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/2/2DB/2DB205/055F0038/2DB205_055_F0038_F_X000_SLR.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+
+#shoe61 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/2/2DE/2DE129/B4LF0002/2DE129_B4L_F0002_F_G000_SLR.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+#shoe62 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/2/2DB/2DB234/055F0002/2DB234_055_F0002_F_X000_SLR.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+#shoe63 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/2/2DB/2DB205/055F0002/2DB205_055_F0002_F_X000_SLR.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+#shoe64 img:hover{
+    cursor: pointer;
+    content: url(https://www.prada.com/content/dam/pradabkg_products/2/2DB/2DB223/055F0002/2DB223_055_F0002_F_X000_SLR.jpg/_jcr_content/renditions/cq5dam.web.hebebed.2400.2400.jpg);
+}
+
+#section2{
+    height: 110vh;
+}
+#section2 video{
+    height: 110vh;
+    width: 95vw;
+}
+
+#section5{
+    height: 30vh;
+    display: flex;
+}
+
+.foot{
+    /* border: 1px solid black; */
+    width: 25vw;
+    height: 100%;
+    text-align: center;
+    margin-top: 4vh;
+}
+#foot1{
+    width: 22vw;
+    display: flex;
+    justify-content: space-around;
+}
+#foot1 img{
+    width: 1.2vw;
+    height: 1.2vw;
+    
+}
+
+.foot a{
+    text-decoration: none;
+    color: black;
+}
+.foot h3{
+    font-size: 1.5rem;
+}
+.foot p{
+    font-size: 1.2rem;
+}
+
+@media (max-width: 1200px){
+ .logo2{
+        display: none;
+    }
+    nav{
+        justify-content: space-between;
+    }
+    .nav-bar2 img{
+        height: 2.5vh;
+        margin-right: 2vh;
+    }
+    .logo1 h1{
+        font-size: 1.8rem;
+        letter-spacing: 0.2rem;
+    }
+    .shoesnav{
+        display: flex;
+        justify-content: space-evenly;
+    }
+   .shoesnav h2{
+    font-size: 1.6em;
+   }
+   .shoesnav p{
+    font-size: 0.8em;
+   }
+   #shoes8, #shoes9, #shoes11{
+    display: none;
+   }
+   #shoes1{
+    margin-left: -2vw;
+   }
+   .product1 p{
+    font-size: 1rem;
+   }
+   #product11{
+    width: 22vw;
+   }
+}
+
+@media (max-width: 1190px) and (min-width:770px){
+
+    
+   #section1{
+    height: 35vw;
+   }
+   #section1 p{
+    font-size: 1rem;
+   }
+   #section2{
+    height: 55vw;
+   }
+   #section2 video{
+    height: 55vw;
+   }
+   #foot1{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #foot1 img{
+        width: 2.5vw;
+        height: 2.5vw;
+    }
+
+}
+
+/* For tablets */
+@media (max-width: 769px) {
+  body {
+    font-size: 16px;
+    /* padding: 10px; */
+  }
+  nav{
+    height: 5vh;
+    padding-right: 1vh;
+    align-content: center;
+  }
+  #shoes2, #shoes6, #shoes12{
+    display: none;
+  }
+  #shoes1{
+    margin-left: -5vw;
+  }
+  #section1{
+    height: 35vw;
+   }
+   #section1 p{
+    font-size: 1rem;
+   }
+   #section2{
+    height: 55vw;
+   }
+   #section2 video{
+    height: 55vw;
+   }
+   #foot1{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #foot1 img{
+        width: 2.5vw;
+        height: 2.5vw;
+    }
+
+}
+
+
+/* For mobile phones */
+@media (max-width: 576px) {
+  body {
+    font-size: 14px;
+  }
+  .logo1{
+    align-items: center;
+  }
+  .logo1 h1{
+    font-size: 1.5rem;
+  }
+  .shoesnav{
+    border: 1px solid black;
+    height: 3.5vh;
+    top: 6vh;
+    
+  }
+  .shoes{
+    height: 3.5vh;
+  }
+  #shoes3 {
+    visibility: hidden;
+  }
+  .products{
+    top: 8.5vh;
+  }
+  .products p{
+    font-size: 0.6em;
+  }
+  #product12{
+    margin-right: -20vw;
+  }
+  #shoe14, #shoe24, #shoe34, #shoe44, #shoe54, #shoe64{
+    display: none;
+  }
+  .shoe{
+    width: 40vw;
+  }
+  .shoe p{
+    font-size: 0.5rem;
+    font-weight: 500;
+  }
+  .shoe img{
+    width: 25vw;
+  }
+  #section1{
+    height: 45vw;
+     display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+  }
+  #section5{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  .foot h3{
+    font-size: 1rem;
+    text-align: center;
+  }
+  .foot p{
+    font-size: 0.8rem;
+  }
+  .foot img{
+    width: 3vw;
+    height: 3vw;
+  }
+}
+
